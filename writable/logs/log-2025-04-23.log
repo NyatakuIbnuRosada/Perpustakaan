@@ -1,0 +1,72 @@
+CRITICAL - 2025-04-23 01:17:39 --> ErrorException: unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory
+[Method: POST, Route: pegawai/ubah/2]
+in APPPATH\Controllers\PegawaiController.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\PegawaiController.php', 126)
+ 2 APPPATH\Controllers\PegawaiController.php(126): unlink('gambar/1745365439_230d10e8298d89a29ce3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->update('2')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2025-04-23 01:17:56 --> ErrorException: unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory
+[Method: POST, Route: pegawai/ubah/2]
+in APPPATH\Controllers\PegawaiController.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\PegawaiController.php', 126)
+ 2 APPPATH\Controllers\PegawaiController.php(126): unlink('gambar/1745365439_230d10e8298d89a29ce3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->update('2')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2025-04-23 01:18:47 --> ErrorException: unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory
+[Method: POST, Route: pegawai/ubah/2]
+in APPPATH\Controllers\PegawaiController.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\PegawaiController.php', 126)
+ 2 APPPATH\Controllers\PegawaiController.php(126): unlink('gambar/1745365439_230d10e8298d89a29ce3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->update('2')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2025-04-23 01:19:13 --> ErrorException: unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory
+[Method: POST, Route: pegawai/ubah/1]
+in APPPATH\Controllers\PegawaiController.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(gambar/1745365439_230d10e8298d89a29ce3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\PegawaiController.php', 126)
+ 2 APPPATH\Controllers\PegawaiController.php(126): unlink('gambar/1745365439_230d10e8298d89a29ce3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2025-04-23 01:28:46 --> ErrorException: unlink(gambar/): Is a directory
+[Method: POST, Route: pegawai/ubah/1]
+in APPPATH\Controllers\PegawaiController.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(gambar/): Is a directory', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\PegawaiController.php', 128)
+ 2 APPPATH\Controllers\PegawaiController.php(128): unlink('gambar/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2025-04-23 01:35:08 --> ErrorException: unlink(gambar/): Is a directory
+[Method: DELETE, Route: pegawai/4]
+in APPPATH\Controllers\PegawaiController.php on line 162.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(gambar/): Is a directory', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\PegawaiController.php', 162)
+ 2 APPPATH\Controllers\PegawaiController.php(162): unlink('gambar/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->delete('4')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
